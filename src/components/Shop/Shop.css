@@ -4,11 +4,14 @@
     grid-gap: 5px;
     margin-top: 10px;
 }
-.product-container, .cart-container{
+/* .product-container, .cart-container{
     border: 1px solid orchid;
-}
+} */
 .product-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+}
+.cart-container{
+    background-color: rgba(255, 153, 0, 0.3);
 }
